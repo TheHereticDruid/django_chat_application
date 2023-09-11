@@ -1,1 +1,5 @@
 # django_chat_application
+
+Run this by installing all the requirements in requirements.txt, and then using the manage.py file to ru the server. Most of the API calls are precisely as described, the authentication is via Token, which you can get from the response of Login call, which is also required for the chat application and the list of online users. 
+
+At the moment, the chat application stands unfinished, I was unable to set up and use the websocket code without a frontend as described. Other than this the user registration and login code works well, as does the suggested friends call, though I might spend some time making that more optimal as well, say by adding these users via a data migration to an unchanging table to reduce processing to get the data into usale formats, and to reduce the number of loops in question. For the working API calls I also have extensive testing modules. All of the APIs use DRF concepts, and Django best practices. All in all, I could use another day to finish off this assignment.
