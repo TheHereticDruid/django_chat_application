@@ -1,0 +1,5 @@
+psycopg
+Django
+djangorestframework
+channels
+daphne
